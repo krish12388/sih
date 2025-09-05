@@ -56,7 +56,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-[#05060a] text-white flex flex-col items-center justify-center relative overflow-hidden px-6 py-16">
       {/* Subtle Background Glow */}
-      <div className="absolute w-[800px] h-[800px] bg-[#00f0ff22] rounded-full blur-3xl -top-40 -left-40"></div>
+      <div className="absolute w-[800px] h-[800px] bg-[#110033] rounded-full blur-3xl -top-40 -left-40"></div>
       <div className="absolute w-[600px] h-[600px] bg-[#7b4dff22] rounded-full blur-3xl -bottom-40 -right-40"></div>
 
       {/* Heading */}
