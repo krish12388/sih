@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-[#05060a] text-white flex flex-col">
       {/* Navbar */}
       <header className="flex justify-between items-center px-10 py-6 bg-transparent backdrop-blur-md border-b border-white/10">
-        <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+        <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
           TrafficAI
-        </h1>
+        </Link>
         <nav className="space-x-8 text-gray-300">
           <a href="#features" className="hover:text-white transition">Features</a>
-          <a href="#solutions" className="hover:text-white transition">Log In</a>
-          <a href="#contact" className="hover:text-white transition">Contact</a>
+          <Link to="/login" className="hover:text-white transition">Log In</Link>
+          <Link to="/contact" className="hover:text-white transition">Contact</Link>
         </nav>
       </header>
 
@@ -28,12 +29,12 @@ const LandingPage = () => {
             and optimize urban traffic flow in real-time. 
           </p>
           <div className="flex space-x-6">
-            <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-purple-600 font-semibold shadow-lg hover:opacity-90 transition">
+            <Link to="/login" className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-purple-600 font-semibold shadow-lg hover:opacity-90 transition">
               Get Started
-            </button>
-            <button className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-300 font-semibold hover:bg-cyan-400/10 transition">
+            </Link>
+            <Link to="/contact" className="px-6 py-3 rounded-xl border border-cyan-400 text-cyan-300 font-semibold hover:bg-cyan-400/10 transition">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
 
