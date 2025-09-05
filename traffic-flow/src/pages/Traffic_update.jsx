@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import GraphVisualizer from "../components/Visual";
 const LiveLocation = () => {
   const [location, setLocation] = useState({ lat: 0, lng: 0 });
   const [traffic, setTraffic] = useState("Smooth");
@@ -31,10 +30,8 @@ const LiveLocation = () => {
       : traffic === "Moderate"
       ? "#FFD24D"
       : "#4DFFB3";
- const dummyData = [12, 25, 18, 30, 22, 35, 28];
   return (
     <div className="w-full min-h-screen bg-[#0A0D14] flex items-center justify-center p-6">
-      {/* Glassmorphism Card */}
       <div className="bg-white/5  backdrop-blur-md border border-white/10 rounded-3xl shadow-xl max-w-4xl w-full p-8 flex  space-y-6">
        <div className="flex flex-col md:flex-row justify-between items-center w-full mb-6 space-y-4 md:space-y-0">
          <div>
@@ -58,7 +55,7 @@ const LiveLocation = () => {
           Traffic: {traffic}
         </div>
        </div>
-        <GraphVisualizer data={dummyData}/>
+
       </div>
     </div>
   );
