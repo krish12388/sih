@@ -31,7 +31,6 @@ const LiveLocation = () => {
       ? "#FFD24D"
       : "#4DFFB3";
   return (
-    <div className="w-full min-h-screen bg-[#0A0D14] flex items-center justify-center p-6">
       <div className="bg-white/5  backdrop-blur-md border border-white/10 rounded-3xl shadow-xl max-w-4xl w-full p-8 flex  space-y-6">
        <div className="flex flex-col md:flex-row justify-between items-center w-full mb-6 space-y-4 md:space-y-0">
          <div>
@@ -46,7 +45,6 @@ const LiveLocation = () => {
           <p>Longitude: {location.lng.toFixed(5)}</p>
         </div>
         </div>
-
         {/* Traffic Status */}
         <div
           className="px-8 max-w-xl max-h-md py-3 rounded-full font-medium text-white w-max"
@@ -55,9 +53,8 @@ const LiveLocation = () => {
           Traffic: {traffic}
         </div>
        </div>
-
       </div>
-    </div>
+    
   );
 };
 

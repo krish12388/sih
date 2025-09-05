@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Home from './pages/Home'
-import LiveLocation from './pages/Traffic_update'
+import Dash_2 from './pages/Dash_2'
 function App() {
 
 
   return (
     <div className='bg-[#0A0D14]'>
     <Home/>
-    <LiveLocation/>
+    <Dash_2/> 
     </div>
   )
 }
