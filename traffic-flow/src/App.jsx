@@ -4,7 +4,7 @@ import LandingPage from './pages/Landing'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import UnderDevelopment from './pages/Unser_dev'
-
+import MultiCameraTrafficLight from './pages/Traffic_light'
 function App() {
 
 
@@ -15,6 +15,7 @@ function App() {
     <Login/>
     <Contact/>
     <UnderDevelopment/>
+    <MultiCameraTrafficLight/>
     </div>
   )
 }
