@@ -1,6 +1,5 @@
 import React from 'react'
 import Traffic_update from './Traffic_update'
-import Navbar_2 from '../components/ui/Navbar_2'
 import TrafficDashboard from '../components/ui/Dashboard'
 function Dash_2() {
   return (

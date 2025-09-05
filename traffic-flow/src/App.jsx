@@ -1,13 +1,18 @@
 import { useState } from 'react'
+import Login from './pages/Log_in'
+import LandingPage from './pages/Landing'
 import Home from './pages/Home'
-import Dash_2 from './pages/Dash_2'
+import Contact from './pages/Contact'
+
 function App() {
 
 
   return (
     <div className='bg-[#0A0D14]'>
+    <LandingPage/>
     <Home/>
-    <Dash_2/> 
+    <Login/>
+    <Contact/>
     </div>
   )
 }

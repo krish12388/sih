@@ -1,16 +1,12 @@
 import React from 'react'
-import Navbar from '../components/ui/Navbar'
-import ActiveAlerts from '../components/ui/Active-alert'
-import Pannel from '../components/Pannel'
-
+import Dash_2 from './Dash_2'
+import Dash_1 from './Dash_1'
 function Home() {
   return (
-    <div className=' w-full h-[100vh] bg-[#0A0D14] border-gray-600 border-1 text-white flex flex-row '>
-      <Navbar/>
-      <div className='w-full p-2 flex flex-col gap-4 justify-center '>
-        <Pannel />
-      </div>
-      </div>
+    <div>
+      <Dash_1/>
+      <Dash_2/>
+    </div>
   )
 }
 
