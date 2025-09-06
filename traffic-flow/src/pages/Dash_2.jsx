@@ -1,12 +1,12 @@
 import React from 'react'
-import TrafficCard from './Traffic_update'
+import MapComponent from './Traffic_update'
 import TrafficDashboard from '../components/ui/Dashboard'
 function Dash_2() {
   return (
-    <div className='h-screen p-3 bg-[#0A0D14]'>
+    <div className='h-full w-full p-3 bg-[#0A0D14]'>
       {/* <Navbar_2/> */}
       <TrafficDashboard />
-      <TrafficCard apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY} />
+      <MapComponent/>
 
     </div>
   )

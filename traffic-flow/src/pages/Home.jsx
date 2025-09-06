@@ -3,7 +3,7 @@ import Dash_2 from './Dash_2'
 import Dash_1 from './Dash_1'
 function Home() {
   return (
-    <div>
+    <div >
       <Dash_1/>
       <Dash_2/>
     </div>
